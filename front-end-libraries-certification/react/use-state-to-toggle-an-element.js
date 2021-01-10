@@ -1,4 +1,5 @@
 // React: Use State to Toggle an Element
+// https://www.freecodecamp.org/learn/front-end-libraries/react/use-state-to-toggle-an-element
 
 // Sometimes you might need to know the previous state when updating the state. However, state updates may be asynchronous - this means React may batch multiple setState() calls into a single update. This means you can't rely on the previous value of this.state or this.props when calculating the next value. So, you should not use code like this:
 
